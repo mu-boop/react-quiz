@@ -1,6 +1,6 @@
 @keyframes top {
     from {top : -30rem}
-    to { top : 5rem }
+    to { top : 3.5rem }
 }
 
 
@@ -8,5 +8,28 @@
     animation-name: top;
     animation-duration: 1s;
     position: relative;
-    top: 5rem;
+    top: 3.5rem;
+}
+
+/* .bgimgage{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+} */
+body{
+    height: 100vh;
+    background: rgb(245,181,2);
+    background: linear-gradient(322deg, rgba(245,181,2,1) 5%, rgba(29,235,229,1) 82%);
+}
+
+.quizimg{
+    position: absolute;
+    width: 75%;
+    margin: auto;
+    height: 30%;
+    opacity: .5;
+}
+
+button{
+    font-size: 2rem !important;
 }
